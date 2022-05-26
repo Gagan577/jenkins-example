@@ -16,7 +16,7 @@ pipeline {
                echo "second"
                 }
             }
-        }
+        
 
 
         stage ('Third Stage') {
@@ -24,6 +24,5 @@ pipeline {
                    echo "third"
                 }
             }
-        }
-    }
 }
+    
